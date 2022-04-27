@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profilo {
+    background-color: white;
+    width: 25%;
+}
+
+#image {
+    width: 90%;
+    justify-content: center;
+    margin: 0px 5px 0px 0px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedede;
+    padding: 20px;
+    border: solid 1px;
+    border-color: navy;
+    width: 74%;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+hr {
+    color: navy;
+}
+
+.user > h1 {
+    color: navy;
+}
+
+.div-col {
+    display: flex;
+    flex-direction: column;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+    text-decoration: underline;
+}
+
+a {
+    font-weight: bold;
+    color: navy;
+    text-decoration: none;
+}
+
+#email {
+    margin-bottom:5px;
+    text-decoration: underline;
+}
+
+.bio-header {
+    background-color: teal;
+    color: white;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+.bio-body-header {
+    font-weight: bold;
+}
+
+.text-header {
+    margin-left: 5px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-normal {
+    font-weight:normal;
+}
